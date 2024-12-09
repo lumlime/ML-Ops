@@ -7,8 +7,8 @@ from sklearn.linear_model import LogisticRegression
 import mlflow
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--trainingdata", type=str, required=True, help='Dataset for training')
-parser.add_argument("--testdata", type=str, required=True, help='Dataset for testing')
+parser.add_argument("--training_data", type=str, required=True, help='Dataset for training')
+parser.add_argument("--test_data", type=str, required=True, help='Dataset for testing')
 args = parser.parse_args()
 mlflow.autolog()
 
