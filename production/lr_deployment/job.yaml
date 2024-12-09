@@ -1,0 +1,14 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandJob.schema.json
+code: .
+command: python lr_model.py --trainingdata ${{ inputs.training_data }} --testdata ${{ inputs.test_data }}
+inputs:
+  training_data:
+    type: uri_file
+    path: azureml:HAR-training:1
+  test_data:
+    type: uri_file
+    path: azureml:HAR-test:1
+environment: azureml://registries/azureml/environments/sklearn-1.1/versions/14
+compute: Kayode-OM1
+experiment_name: LR-Model-Exp
+description: Linear Regression Model
