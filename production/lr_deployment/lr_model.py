@@ -15,8 +15,8 @@ mlflow.autolog()
 
 
 # Load training and test data
-train_df = pd.read_csv('args.training_data')
-test_df = pd.read_csv('args.test_data')
+train_df = pd.read_csv(args.training_data)
+test_df = pd.read_csv(args.test_data)
 
 # 'Activity' is the column with class labels
 Y_train = train_df['Activity'].values
