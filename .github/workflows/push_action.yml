@@ -13,7 +13,7 @@ jobs:
       - name: List files
         run: ls ${{ github.workspace }}
       - name: Login to Azure
-        uses: azure.login@v1
+        uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Test Azure Login
