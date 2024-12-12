@@ -10,5 +10,5 @@ inputs:
     path: azureml:HAR-test:1
 environment: azureml://registries/azureml/environments/sklearn-1.1/versions/14
 compute: Kayode-OM1
-experiment_name: LR-Model-Exp2
-description: Linear Regression Model2
+experiment_name: LR-Model-Exp3
+description: Linear Regression Model3
