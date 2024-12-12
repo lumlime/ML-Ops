@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
       - run: echo "Repository cloned, I think I'm ready. The files look like this:"
       - name: List files
-        run: ls
+        run: ls ${{ github.workspace }}
       - name: Login to Azure
         uses: azure.login@v1
         with:
