@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b00948762/Documents/COM774/ML-Ops/mlruns/0/2442523d0066480c8b188c0d47b769a7/artifacts
+end_time: 1733956664954
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2442523d0066480c8b188c0d47b769a7
+run_name: unique-ray-32
+run_uuid: 2442523d0066480c8b188c0d47b769a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733956654823
+status: 3
+tags: []
+user_id: b00948762

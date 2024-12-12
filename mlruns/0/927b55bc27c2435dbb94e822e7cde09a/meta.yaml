@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b00948762/Documents/COM774/ML-Ops/mlruns/0/927b55bc27c2435dbb94e822e7cde09a/artifacts
+end_time: 1733953955655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 927b55bc27c2435dbb94e822e7cde09a
+run_name: orderly-trout-376
+run_uuid: 927b55bc27c2435dbb94e822e7cde09a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733953943839
+status: 3
+tags: []
+user_id: b00948762

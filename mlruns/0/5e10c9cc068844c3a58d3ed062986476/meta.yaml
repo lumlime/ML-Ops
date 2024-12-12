@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b00948762/Documents/COM774/ML-Ops/mlruns/0/5e10c9cc068844c3a58d3ed062986476/artifacts
+end_time: 1733953955655
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5e10c9cc068844c3a58d3ed062986476
+run_name: indecisive-skunk-130
+run_uuid: 5e10c9cc068844c3a58d3ed062986476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1733953943839
+status: 3
+tags: []
+user_id: b00948762

@@ -1,0 +1,10 @@
+digest: 49fd6c00
+name: dataset
+profile: '{"features_shape": [7352, 10], "features_size": 73520, "features_nbytes":
+  588160, "targets_shape": [7352], "targets_size": 7352, "targets_nbytes": 58816}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 10]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"object\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "b00948762", "mlflow.source.name": "c:/Users/b00948762/Desktop/logregV2.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
