@@ -8,6 +8,11 @@ from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.model_selection import GridSearchCV
 import mlflow
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--training_data", type=str, required=True, help='Dataset for training')
+parser.add_argument("--test_data", type=str, required=True, help='Dataset for testing')
+args = parser.parse_args()
+
 def load_data():
     """Load training and testing data from the given paths."""
     train_df = pd.read_csv(args.training_data)
@@ -59,10 +64,7 @@ def evaluate_model(model, X_test, Y_test):
     return accuracy, roc_auc
 
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--training_data", type=str, required=True, help='Dataset for training')
-    parser.add_argument("--test_data", type=str, required=True, help='Dataset for testing')
-    args = parser.parse_args()
+    
     mlflow.autolog()
 
     # Step 1: Load Data
