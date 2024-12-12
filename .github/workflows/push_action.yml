@@ -21,4 +21,5 @@ jobs:
       - name: Add ML Extension
         run: az extension add -n ml
       - name: Run Model Training
-        run: az ml job create --file ../../production/lr_deployment/job.yaml --resource-group cw2-resources --workspace-name ML-Ops1
+        run: |
+          az ml job create --file production/lr_deployment/job.yaml --resource-group cw2-resources --workspace-name ML-Ops1
